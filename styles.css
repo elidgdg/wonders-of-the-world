@@ -1,3 +1,4 @@
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -11,4 +12,60 @@
 
 h2 {
     align-self: center;
+}
+
+.link-btns {
+    padding: 0 10%;
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 7px;
+}
+
+button {
+    width: 30%;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.intro-text {
+    padding: 0 5%;
+}
+
+#giza-btn {
+    background-image: url(img/giza-img.jpg);
+}
+
+#wallofchina-btn {
+    background-image: url(img/greatwall-img.webp);
+}
+
+#petra-btn {
+    background-image: url(img/petra-img.webp);
+}
+
+#colosseum-btn {
+    background-image: url(img/colosseum-img.webp);
+}
+
+#chichenitza-btn {
+    background-image: url(img/chichen-img.webp);
+}
+
+#machupicchu-btn {
+    background-image: url(img/machupicchu-img.webp);
+}
+
+#tajmahal-btn {
+    background-image: url(img/tajmahal-img.webp);
+}
+
+#christtheredeemer-btn {
+    background-image: url(img/christtheredeemer-img.webp);
 }
