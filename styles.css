@@ -1,41 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    
+} 
+
+h1 {
+    color: #4E3524;
+}
+
+a {
+    padding: 2px;
+    text-decoration: none;
+    color: #4E3524;
+    border: 2px solid #4E3524;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #4E3524;
+    color: #ad885c;
+
+}
+
+body {
+    min-height: 100vh;
+    background-color: #e1be86;
+}
+
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #ad885c;
+    padding:10px;
+    font-family: 'Roboto';
 }
 
 .content {
     display: flex;
     flex-direction: column;
+    padding: 10px;
+
 }
 
 h2 {
     align-self: center;
+    padding: 10px;
 }
 
 .link-btns {
-    padding: 0 10%;
+    padding: 0 10% 10px 0;
     flex-grow: 1;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 7px;
+    
 }
 
 button {
     width: 30%;
     background-size: cover;
+    border: 3px solid #EFE0BB;
+    border-radius: 5px;
+    color: white;
 }
+
 
 .container {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: #e1be86;
 }
 
 .intro-text {
-    padding: 0 5%;
+    padding: 10px;
 }
 
 #giza-btn {
@@ -75,4 +117,13 @@ button {
 }
 .grow:hover {
     transform: scale(1.02);
+}
+
+img {
+    max-width: 500px;
+    align-self: center;
+    margin-top: 20px;
+
+    border: 7px solid #EFE0BB;
+    border-radius: 5px;
 }
