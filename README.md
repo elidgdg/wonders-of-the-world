@@ -29,3 +29,21 @@ On the home page of the website, I added buttons that grow when they are hovered
     <button class="grow" id="christtheredeemer-btn" onclick="window.location.href='christtheredeemer.html'">Christ the Redeemer</button>
 </div>
 ```
+
+### Footer
+
+The home page of the website also contains a footer, which links to the source code on github.
+```
+<div class="footer">
+    <div class="footer-content">
+        View source code and read about how I made the website <a href="https://github.com/elidgdg/wonders-of-the-world" target="_blank">here</a>
+    </div>
+</div>
+```
+
+### Images
+
+On each of the information pages, I included an image.
+```
+<img src="img/machupicchu-img.webp" alt="Machu Picchu"> 
+```
