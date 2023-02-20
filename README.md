@@ -65,3 +65,39 @@ This is the CSS for the main container div that all the HTML elements were child
     background-color: #e1be86;
 }
 ```
+
+I then used Flexbox to arrange various other elements within this container. For example, this is how I arranged my page header, so that the title is on the left and the home button is on the right.
+```
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ad885c;
+    padding:10px;
+    font-family: 'Roboto';
+}
+```
+
+I also used Flexbox to make the buttons on my main page grow and shrink to fit the available space.
+```
+.link-btns {
+    padding: 0 10% 10px 0;
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 7px;
+}
+```
+
+### Growing Buttons
+
+On the main page, there are buttons linking to each of the information pages. These buttons grow when the mouse hovers over them, and I achieved this using CSS, specifically the `:hover` selector. Each of the buttons belong to the `grow` class, which I used to select them in the CSS.
+```
+.grow {
+    transition: all .1s ease-in-out;
+}
+.grow:hover {
+    transform: scale(1.02);
+}
+```
