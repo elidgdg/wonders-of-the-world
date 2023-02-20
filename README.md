@@ -1,2 +1,4 @@
 # wonders-of-the-world
-A-Level comp sci work
+
+This project is a website containing information about each of the 
+7
