@@ -90,7 +90,7 @@ I also used Flexbox to make the buttons on my main page grow and shrink to fit t
 }
 ```
 
-### Growing Buttons
+### Growing and Color-changing Buttons
 
 On the main page, there are buttons linking to each of the information pages. These buttons grow when the mouse hovers over them, and I achieved this using CSS, specifically the `:hover` selector. Each of the buttons belong to the `grow` class, which I used to select them in the CSS.
 ```
@@ -99,5 +99,30 @@ On the main page, there are buttons linking to each of the information pages. Th
 }
 .grow:hover {
     transform: scale(1.02);
+}
+```
+
+I used the `:hover` selector again for the home button, this time to achieve a change of color when it is hovered over.
+```
+#home-btn {
+    padding: 2px;
+    text-decoration: none;
+    color: #4E3524;
+    border: 2px solid #4E3524;
+    border-radius: 5px;
+}
+
+#home-btn:hover {
+    background-color: #4E3524;
+    color: #ad885c;
+}
+```
+
+### Button Images
+
+I also gave each of the buttons a background image using CSS.
+```
+#petra-btn {
+    background-image: url(img/petra-img.webp);
 }
 ```
