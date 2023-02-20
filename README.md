@@ -55,6 +55,7 @@ I used CSS throughout my website to improve appearance and readability.
 ### Flexbox
 
 To arrange the items on each of my pages, I used Flexbox.
+
 This is the CSS for the main container div that all the HTML elements were children of. This allows me to arrange all the elements in my page vertically, one on top of the other.
 ```
 .container {
