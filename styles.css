@@ -9,7 +9,7 @@ h1 {
     color: #4E3524;
 }
 
-a {
+#home-btn {
     padding: 2px;
     text-decoration: none;
     color: #4E3524;
@@ -17,7 +17,7 @@ a {
     border-radius: 5px;
 }
 
-a:hover {
+#home-btn:hover {
     background-color: #4E3524;
     color: #ad885c;
 
@@ -126,4 +126,15 @@ img {
 
     border: 7px solid #EFE0BB;
     border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: #c6a57d;
+    color: #4E3524;
+    font-size: 0.75em;
 }
